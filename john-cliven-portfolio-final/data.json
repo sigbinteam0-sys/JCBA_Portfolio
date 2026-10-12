@@ -1,0 +1,84 @@
+{
+  "PROFILE": {
+    "name": "John Cliven B. Amadeo",
+    "first": "John Cliven B.",
+    "last": "Amadeo",
+    "initials": "JCBA",
+    "email": "amadeojohnclivenb.pdm@gmail.com",
+    "github": "https://github.com/sigbinteam0-sys",
+    "linkedin": "",
+    "facebook": "https://www.facebook.com/profile.php?fb_profile_edit_entry_point=%7B%22click_point%22%3A%22edit_profile_button%22%2C%22feature%22%3A%22profile_header%22%7D&id=61580192256939&sk=about",
+    "school": "Pambayang Dalubhasaan ng Marilao",
+    "yearLevel": "3rd year",
+    "graduation": "2028",
+    "careerGoal": "UI/UX Designer",
+    "about": "I chose IT because I’m interested in technology and how it makes people’s lives easier. As a third-year IT student, I enjoy learning about programming, computer systems, and how technology works. I’m still exploring different areas of IT, and I look forward to learning new things and improving my skills as I prepare for my future career."
+  },
+  "PROJECTS": [
+    {
+      "title": "Personal Website",
+      "label": "ACTIVITY 01",
+      "purpose": "PERSONAL WEBSITE",
+      "desc": "A multi-page personal website featuring my information, journal, hobbies, and interests. Built as an early HTML practice project.",
+      "tech": [
+        "HTML",
+        "Basic CSS"
+      ],
+      "cat": "web",
+      "pv": "journal",
+      "size": "s7",
+      "demo": "projects/activity-1-personal-website/homepage.html",
+      "code": "projects/source-files/activity-1-personal-website-source.zip"
+    },
+    {
+      "title": "Student Personal Website",
+      "label": "ACTIVITY 03",
+      "purpose": "STUDENT WEBSITE",
+      "desc": "A student website exercise with a homepage, registration form, grade table, and profile page connected through navigation.",
+      "tech": [
+        "HTML",
+        "Inline CSS",
+        "Forms",
+        "Tables"
+      ],
+      "cat": "web",
+      "pv": "portal",
+      "size": "s5",
+      "demo": "projects/activity-3-student-website/Homepage.html",
+      "code": "projects/source-files/activity-3-student-website-source.zip"
+    },
+    {
+      "title": "Personal Student Portal",
+      "label": "ACTIVITY 04",
+      "purpose": "STUDENT PORTAL",
+      "desc": "A multi-page portal exercise with shared styling and separate home, registration, grades, and profile pages.",
+      "tech": [
+        "HTML",
+        "CSS",
+        "Navigation"
+      ],
+      "cat": "web",
+      "pv": "portal",
+      "size": "s5",
+      "demo": "projects/activity-4-student-portal/Homepage.html",
+      "code": "projects/source-files/activity-4-student-portal-source.zip"
+    },
+    {
+      "title": "Porsche Landing Page",
+      "label": "ACTIVITY 05",
+      "purpose": "LANDING PAGE DESIGN",
+      "desc": "A Porsche-themed landing page concept featuring car imagery, a hero section, and introductory brand information.",
+      "tech": [
+        "HTML",
+        "CSS",
+        "Layout",
+        "Background Images"
+      ],
+      "cat": "web",
+      "pv": "porsche",
+      "size": "s7",
+      "demo": "projects/activity-5-porsche-landing-page/LandingPage.html",
+      "code": "projects/source-files/activity-5-porsche-landing-page-source.zip"
+    }
+  ]
+}

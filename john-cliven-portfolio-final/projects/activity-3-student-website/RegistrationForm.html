@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 3 — RegistrationForm</title>
+</head>
+<body style="margin: 0;">
+    <Header style="background-color: rgb(47, 200, 200); text-align: center; padding: 100px;">
+        <h1>Student Registration Form</h1><br>
+    </Header>
+
+    <nav style="background-color: rgb(47, 190, 190); display: flex; justify-content:center; gap:100px; padding:50px;">
+        <a href="Homepage.html"> Home</a>
+        <a href="RegistrationForm.html"> Registration Form</a>
+        <a href="GradeTable.html"> Grade Table</a>
+        <a href="MyProfile.html"> My Profile</a>
+    </nav>
+
+    <div>
+        <section style="background-color: rgb(47, 180, 180); padding: 100px; ">
+         <form onsubmit="event.preventDefault(); alert('Demo form only — no information is sent or saved.');">
+         First Name: <br><input type="text" name="first_name"/><br>
+         Last Name: <br><input type="text" name="last_name"/><br>
+         Email: <br><input type="text" name="email_name"/><br><br>
+         Gender: <br><input type="radio" name="Gender" value="Male"> Male 
+         <input type="radio" name="Gender" value="Female"> Female <br>
+
+         <br>
+         Course:
+         <select name="Course">
+            <option value="BSOAD" selected>BSOAD</option>
+            <option value="BSIT" selected>BSIT</option>
+            <option value="BSHM" selected>BSHM</option>
+            <option value="BSTM" selected>BSTM</option>
+         </select><br>
+         
+         <br>
+         SKILLS:<br>
+         <input type="radio" name="SKILLS" value="HTML"> HTML
+         <input type="radio" name="SKILLS" value="CSS"> CSS
+         <input type="radio" name="SKILLS" value="Java"> JavaScript<br>
+
+         <br>
+         Upload Picture:<br>
+         <input type="file" name="Pic" accept="image/*"/> <br>
+
+         <br>
+         Address:<br>
+         <textarea rows="5" cols="50" name="description" placeholder=” Enter description here...”></textarea><br>
+         <button type="submit" name="Submit">Submit</button>
+         <button type="reset" name="Reset">Reset</button>
+
+         </form>
+        </section>
+    </div>
+
+    <footer style="background-color: rgb(47, 160, 160); padding: 30px; text-align: center;">
+        <p>Copyright 😂 2026</p>
+    </footer>
+</body>
+</html>

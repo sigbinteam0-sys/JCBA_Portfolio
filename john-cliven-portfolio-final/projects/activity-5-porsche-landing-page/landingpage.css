@@ -1,0 +1,88 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+.logo {
+    width: 200px;;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(7, 8, 32, 0.233);
+}
+
+.head {
+    background-color: rgba(0, 0, 0, 0.233);
+    display: flex;
+    gap: 400px;
+    text-align: center;
+    border: 2px solid #9e8703;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.links {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    color: rgb(255, 255, 255);
+    justify-content: flex-start;
+    padding-top: 400px;
+    padding-left: 300px;
+    padding-bottom: 400px;
+}
+
+.ABOUT {
+    color: rgb(0, 0, 0);
+    padding-top: 400px;
+    justify-content: center;
+    background-color: rgb(198, 150, 50);
+}
+
+.footer {
+    padding-top: 500px;
+    color: white;
+    justify-content: flex-start;
+}
+
+.hero-container {
+ 
+  background-image: url('porsche.jpg'); 
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover; 
+  min-height: 400px; 
+  color: white; 
+}
+
+.ab{
+    justify-content: center;
+    display: flex;
+}
+
+.home .text .p {
+    color: red;
+    text-shadow: 10px;
+}
+
+.ABOUT .ab {
+    background-color: rgb(198, 150, 50);
+}
+
+.aboutus {
+    background-color: rgb(24, 23, 23);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.a{
+    color: rgb(198, 150, 50);
+}
+
+.b{
+    color: rgb(198, 150, 50);
+}
