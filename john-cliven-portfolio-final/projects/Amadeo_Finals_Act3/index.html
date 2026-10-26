@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<style>
+    body {
+        text-align: center;
+        margin-top: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 100px;
+        margin-right: 100px;
+        background-color: gainsboro;
+    }
+
+    .info {
+        background-color: beige;
+        text-align: left;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    button {
+        padding: 20px 25px;
+        border: none;
+        border-radius: 6px;
+        background-color: black;
+        color: white;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+
+    .message {
+        background-color: beige;
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        margin-top: 25px;
+    }
+
+    .course{
+        margin-top: 25px;
+        background-color: rgb(255, 255, 255);
+        text-align: left;   
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    #message1 {
+        background-color: beige;
+        text-align: center;
+        padding: 30px;
+        border-radius: 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .choose {
+        border: 4px solid;
+    }
+
+    #table {
+        margin: 0 auto;
+        text-align: center; 
+        width: 80%;
+        border: 2px solid;
+    }
+
+    .tbl {
+        margin-top: 25px;
+    }
+
+    .list {
+        text-align: left;
+    }
+
+    .tblBorder {
+        margin-top: 25px;
+        background-color: beige;
+        text-align: left;   
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    .body1 {
+        background-color: rgb(255, 255, 255);
+        padding: 50px;
+        border-radius: 10px;
+    }
+
+</style>
+
+<body>
+    <div class="body1">
+    <h1 id="title">My Student Profile</h1>
+
+    <p>Welcome to My interactive Profile!</p>
+
+    <div class="info">
+        <h1>Student Information</h1>
+        <p>Name: John Cliven Amadeo</p> 
+        <p id="kurso">Course: BSIT</p>  
+        <p>Year Level: 3rd Year</p> 
+    </div>
+
+    <button id="btnTitle">Change Title</button>
+    <button id="btnHide">Hide Profile</button>
+    <button id="btnShow">Show Profile</button>
+
+    <div class="message">
+        <p><p>
+    </div>
+
+    <div class="course">
+    <h1>Choose your Course</h1>
+    <select id="choose" style="width: 100%; height: 50px;">
+        <option value="" disabled selected>Select Course</option>
+        <option value="Course: BSIT">BSIT</option>
+        <option value="Course: BSCS">BSCS</option>
+        <option value="Course: BSIS">BSIS</option>
+    </select>
+    </div>
+
+    <div id="message1">
+        <p><p>
+    </div>
+
+    <div class = "tblBorder">
+        
+    <h1 class = "list">Students List</h1>
+    
+    <table border="2" id="table">
+        <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John</td>
+            <td>BSCS</td>
+            <td>1st Year</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>David</td>
+            <td>BSIS</td>
+            <td>4th Year</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Alex</td>
+            <td>BSCE</td>
+            <td>3rd Year</td>
+        </tr>
+
+
+
+    </table>
+    </div>
+
+    <button id="btnOdd">Apply Odd Row</button>
+    <button id="btnEven">Apply Even Row</button>
+    <button id="btnHide1">Hide</button>
+    <button id="btnShow1">Show</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
